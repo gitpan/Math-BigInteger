@@ -6,7 +6,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
 	'NAME' => 'Math::BigInteger',
 	'DISTNAME' => 'Math-BigInteger',
-	'VERSION' => '1.0',
+	'VERSION' => '1.01',
 	'OBJECT' => 'BigInteger.o bn.o bn_mul.o bn_regs.o',
 	'dist'   => {COMPRESS=>'gzip', SUFFIX=>'gz'}
 );

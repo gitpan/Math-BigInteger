@@ -2,7 +2,9 @@ BigInteger.pm
 BigInteger.pod
 BigInteger.xs
 COPYRIGHT
+CHANGES
 MANIFEST
+SIGNATURE
 Makefile.PL
 README
 bn.c
@@ -12,3 +14,4 @@ bn_mul.c
 bn_regs.c
 test.pl
 typemap
+META.yml                                 Module meta-data (added by MakeMaker)

@@ -1,0 +1,42 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.42.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+SHA1 d144be1c53654337b544f5edf039d6048384dbb8 BigInteger.pm
+SHA1 5c5a517cddb5790ae5a2973af384ea2994581208 BigInteger.pod
+SHA1 c7591c1858e842c64c264f0d4d51a269ad5181d7 BigInteger.xs
+SHA1 fdafebd046c3d6fc3b609ddf1ce4d3327a8f803d CHANGES
+SHA1 dc7194ff86b9b20c47abf1678530d3b0cbd9431f COPYRIGHT
+SHA1 3bd600caafba62dadfbb1cce951cad88472a8f1f MANIFEST
+SHA1 9bee3e2fc1bbedd3f802b36bec3bc4780a298bd4 META.yml
+SHA1 ab58da2d7a8636c87f2522d591383a6ff7670958 Makefile.PL
+SHA1 ed98db7f00fe1062be94a8397631750fdab597a5 README
+SHA1 ec5004a3f7f1234bc29995f488990d4c81f16467 bn.c
+SHA1 90650eadbb1e93ec1169ad521f79886615496b20 bn.doc
+SHA1 85fad479e3f7143bf6e954a61c358ccd5b6a9fc9 bn.h
+SHA1 a9a0d55d7bf68d0568bec644e453cf734ba72209 bn_mul.c
+SHA1 686396199817847856d8d1d76fd3c73670e6c8b5 bn_regs.c
+SHA1 8decee9f5c7b6ef716da79eb12f4474b69507104 test.pl
+SHA1 4e346c37134768035ab4bd46504ff09b95b213a4 typemap
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.4 (GNU/Linux)
+
+iQEVAwUBQiGmzncLPEOTuEwVAQE1UQf9H9BRIFpCfKYNhKCw+arBYgPTUN8N1MtH
+8nGHLMZdeEkQ8Vvi2dby0HCT1Ht+24qVT2xuDtTXWl95oRxOzlAN8r2iPyLqNcrK
+bNtSBd7RIP7W4JDhgR1FB1MFwc+XjNwfg5HIsV/pxX4nALnN7OrOgE/aqW54dKmo
+0+CcQ0c1ZtXgxfEDRcf/BWP1GhTJEqpOHV7G1QWkfOrgy3sDMtenQxmmBVl5qj9G
+vNq7UegFUjofolDt1JiSxtLpSS2dnlchmDXb8x0mGpasQIWv29hRB0N9Vd3qgL6t
+0hQpx89oqdZG+Ta2fkVWDDm8Y5GijBZn4VAnpduW/JRJiP4NZxsmIg==
+=hIk3
+-----END PGP SIGNATURE-----

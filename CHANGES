@@ -1,0 +1,11 @@
+
+1.00 Original Version by Gary Howland
+
+2005-02-27 1.01 Tels
+  * Taken over since Gary Howland passed away in 2002
+  * Added deprecated warning. No functional changes.
+  * fixed the "Fputc" error by modifying bn.c
+  * stopped test.pl from outputting garbage
+
+This module should really really be killed, it didn't work for well over two
+years and it is unlikely that anyone can have used it.

@@ -48,6 +48,10 @@
 #include <stdio.h>
 #include "bn.h"
 
+#ifndef Fputc
+#define Fputc fputc
+#endif
+
 #ifdef PROTO
 static void bn_SUB(BIGNUM *r, BIGNUM *a, BIGNUM *b);
 /*static void bn_fix_top(BIGNUM *a);*/

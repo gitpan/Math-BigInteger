@@ -1,12 +1,19 @@
 =head1 NAME
 
-BigInteger - Arbitrary length integer extension module for Perl
+BigInteger - Deprecated! Arbitrary length integer extension
 
 =head1 SYNOPSIS
 
  use Math::BigInteger;
 
 =head1 DESCRIPTION
+
+B<Warning! This module is deprecated, and no longer actively maintained!>
+
+If you want big integer (and float and rational) support in Perl, please use
+L<Math::BigInt> together with any of the math libraries like
+L<Math::BigInt::a Big::GMP>.
+
 
 The BigInteger extension module gives access to Eric Young's bignum library.
 This provides a faster alternative to the Math::BigInt library.
@@ -215,13 +222,23 @@ $r satisfies (a*r)%n == 1.  This function is used in the generation of RSA keys.
 
 =head1 BUGS
 
+B<Warning! This module is deprecated, and no longer actively maintained!>
+
+If you want big integer (and float and rational) support in Perl, please use
+L<Math::BigInt> together with any of the math libraries like
+L<Math::BigInt::a Big::GMP>.
+
 Negative numbers cannot be saved or restored.
 To fix this requires modification of Eric Young's library.
 
-The documentation.
+The documentation. The tests. Pretty much everything.
 
-=head1 COPYRIGHT
+=head1 AUTHORS
 
-Systemics Ltd ( http://www.systemics.com/ ).
+(c) Systemics Ltd ( http://www.systemics.com/ ).
 
 Portions copyright Eric Young (eay@mincom.oz.au).
+
+This module is no longer actively maintained, nor supported.
+
+=cut

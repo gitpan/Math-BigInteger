@@ -29,11 +29,12 @@ $n2->dec();
 $n2->dec();
 
 my $val = $n2->save();
-print unpack("H*", $val), "\n";
+# print unpack("H*", $val), "\n";
 $n2->dec();
 $val = $n2->save();
 my $x = restore BigInteger $val;
-print unpack("H*", $val), "\n";
+
+# print unpack("H*", $val), "\n";
 
 #
 #	OK, OK, these tests could be better,

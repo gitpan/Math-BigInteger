@@ -1,3 +1,14 @@
+
+#############################################################################
+
+Warning! This module is deprecated, and no longer actively maintained!
+
+If you want big integer (and float and rational) support in Perl, please use
+Math::BigInt together with any of the math libraries like
+Math::BigInt::a Big::GMP.
+ 
+#############################################################################
+
 This BigNum library is based on Eric Young's BigNum C library.
 
 
